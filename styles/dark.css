@@ -5,21 +5,21 @@
 */
 
 :root.theme-dark {
-    --accent-color: #ff0070;
-    --title-color: #DB00FF;
-    --title-shadow: #FF0700;
-    --accent-text-color: #000028;
-    --text-color: #F1B2CE;
-    --background-color: #000028;
-    --font: "IBM Plex Mono", monospace;
-    --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --decor-color: #ff0070;
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-shadow: #ff0700;
+  --accent-text-color: #000028;
+  --text-color: #f1b2ce;
+  --background-color: #000028;
+  --font: "IBM Plex Mono", monospace;
+  --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --decor-color: #ff0070;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
-  @media (min-width: 768px) {
-    :root {
-      --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    }
 }
 
 .page.theme_dark {
@@ -27,5 +27,4 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  }
-
+}

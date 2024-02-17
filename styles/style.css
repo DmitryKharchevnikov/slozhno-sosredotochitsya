@@ -225,7 +225,6 @@
 
 .link:focus {
   border: solid 1px var(--text-color);
-  /* немного поправить сдвинуть рамку */
 }
 
 .list-item {

@@ -5,10 +5,10 @@
 
 :root {
   --accent-color: #ff0070;
-  --title-color: #DB00FF;
-  --title-shadow: #FF0700;
+  --title-color: #db00ff;
+  --title-shadow: #ff0700;
   --accent-text-color: #000028;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --background-color: #000028;
   --font: "IBM Plex Mono", monospace;
   --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
