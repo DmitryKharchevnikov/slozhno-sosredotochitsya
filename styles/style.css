@@ -335,7 +335,6 @@ p ~ p {
   .subtitle {
     place-self: center end;
     width: 364px;
-    height: min-content;
   }
 
   .article {
@@ -527,9 +526,9 @@ p ~ p {
 
   .article_list {
     margin-right: 0px;
+  }
 
-    li:not(:last-of-type) {
-      margin-bottom: 22px;
-    }
+  li:not(:last-of-type) {
+    margin-bottom: 22px;
   }
 }
