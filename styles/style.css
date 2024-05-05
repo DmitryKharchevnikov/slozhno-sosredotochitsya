@@ -482,7 +482,7 @@ p ~ p {
 
   .article_subtitle {
     max-block-size: 25px;
-    width: 649px;
+    margin-right: 0px;
   }
 
   .article_subtitle_special {
@@ -515,16 +515,21 @@ p ~ p {
     flex-direction: column;
     position: relative;
     gap: 0px;
-    margin-left: 20px;
-  }
-
-  li:not(:last-of-type) {
-    margin-bottom: 22px;
+    margin-right: 10px;
   }
 
   .pictures {
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 0px;
     margin-bottom: 50px;
+  }
+
+  .article_list {
+    margin-right: 0px;
+
+    li:not(:last-of-type) {
+      margin-bottom: 22px;
+    }
   }
 }
