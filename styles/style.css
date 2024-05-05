@@ -358,7 +358,6 @@ li:not(:last-of-type) {
   }
 
   .article_list {
-    width: 472px;
     margin-left: 20px;
   }
 
@@ -484,10 +483,6 @@ li:not(:last-of-type) {
   .article_title {
     margin-left: 0px;
     width: 315px;
-  }
-
-  .article_list {
-    width: 650px;
   }
 
   .article_subtitle {
