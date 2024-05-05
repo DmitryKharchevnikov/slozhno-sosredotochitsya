@@ -273,7 +273,6 @@ p ~ p {
 
 .footer {
   height: 100vh;
-  min-height: 668px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,13 +355,14 @@ p ~ p {
   }
 
   .article_subtitle {
-    width: 472px;
+    margin-right: 10px;
     height: fit-content;
     margin-left: 20px;
   }
 
   .article_list {
     margin-left: 20px;
+    margin-right: 10px;
   }
 
   .article_item {
@@ -391,6 +391,7 @@ p ~ p {
     grid-row: 2 / 3;
     margin-top: -70px;
     margin-left: 20px;
+    margin-right: 10px;
   }
 
   .article_subtitle_special {
