@@ -18,6 +18,8 @@
   --text-color: #353430;
   --background-color: #353430;
   --decor-color: rgb(53, 52, 48);
+  --border: 1px solid rgba(50, 49, 45, 0.4);
+  --article-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,14 +32,13 @@
     --text-color: #353430;
     --background-color: #000028;
     --decor-color: rgb(53, 52, 48);
-}
+    --border: 1px solid rgba(50, 49, 45, 0.4);
+    --article-color: #353430;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   .decor {
     display: none;
   }
-  }
-
-
-
+}
