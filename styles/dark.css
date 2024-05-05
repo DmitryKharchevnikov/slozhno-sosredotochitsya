@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-dark {
+.page.theme-dark {
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --title-shadow: #ff0700;
