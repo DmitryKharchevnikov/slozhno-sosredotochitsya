@@ -386,7 +386,6 @@ li:not(:last-of-type) {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     margin-top: -70px;
-    width: 472px;
     margin-left: 20px;
   }
 
@@ -507,7 +506,9 @@ li:not(:last-of-type) {
   }
 
   .list {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 20px;
     margin-left: 0px;
     margin-right: 0px;
