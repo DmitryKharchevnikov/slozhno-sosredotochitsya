@@ -37,6 +37,10 @@
   }
 }
 
+.theme_light .decor {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   .decor {
     display: none;

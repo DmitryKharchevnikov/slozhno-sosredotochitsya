@@ -60,6 +60,7 @@
   position: absolute;
   top: 0px;
   right: 19px;
+  display: block;
 }
 
 .decor::before {

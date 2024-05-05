@@ -16,3 +16,7 @@
   --article-color: #FF0070;
   --bg-image: url(../images/cover-image-dark.png);
 }
+
+.theme_dark .decor {
+  display: block;
+}
