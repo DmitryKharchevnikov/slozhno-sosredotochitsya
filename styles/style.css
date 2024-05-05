@@ -228,6 +228,10 @@ li:not(:last-of-type) {
   margin-bottom: 20px;
 }
 
+p ~ p {
+  margin-top: 9px;
+}
+
 .pictures {
   display: flex;
   flex-direction: column;
