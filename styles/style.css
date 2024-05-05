@@ -98,7 +98,6 @@
 
 .header__theme-menu {
   place-self: center end;
-  margin-top: 64px;
 }
 
 .header__theme-menu-button {
@@ -136,7 +135,6 @@
 }
 
 .header_title_position {
-  margin-top: 1px;
   position: static;
   align-self: center;
 }
@@ -324,10 +322,6 @@ p ~ p {
     right: 20px;
   }
 
-  .header__theme-menu {
-    margin-top: 68px;
-  }
-
   .header__theme-menu-list {
     gap: 3px;
     margin-inline-end: 18px;
@@ -387,9 +381,6 @@ p ~ p {
   }
 
   .list_special {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    margin-top: -70px;
     margin-left: 20px;
     margin-right: 10px;
   }
@@ -523,7 +514,6 @@ p ~ p {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 25px;
     gap: 0px;
     margin-left: 20px;
   }
@@ -535,8 +525,6 @@ p ~ p {
   .pictures {
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 80px;
-    position: relative;
-    top: 20px;
+    margin-bottom: 50px;
   }
 }
