@@ -16,7 +16,7 @@
   --title-shadow: #ff8dcb;
   --accent-text-color: #353430;
   --text-color: #353430;
-  --background-color: #353430;
+  --background-color: #f7f7f7;
   --decor-color: rgb(53, 52, 48);
   --border: 1px solid rgba(50, 49, 45, 0.4);
   --article-color: #353430;
@@ -30,7 +30,7 @@
     --title-shadow: #ff8dcb;
     --accent-text-color: #353430;
     --text-color: #353430;
-    --background-color: #000028;
+    --background-color: #f7f7f7;
     --decor-color: rgb(53, 52, 48);
     --border: 1px solid rgba(50, 49, 45, 0.4);
     --article-color: #353430;
